@@ -1,0 +1,16 @@
+{"time":"2025-06-22T14:58:40.6644698+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\functions\\wandb\\run-20250622_145839-4ak4idiw\\logs\\debug-core.log"}
+{"time":"2025-06-22T14:58:42.0475057+05:30","level":"INFO","msg":"stream: created new stream","id":"4ak4idiw"}
+{"time":"2025-06-22T14:58:42.0480201+05:30","level":"INFO","msg":"stream: started","id":"4ak4idiw"}
+{"time":"2025-06-22T14:58:42.0480201+05:30","level":"INFO","msg":"handler: started","stream_id":"4ak4idiw"}
+{"time":"2025-06-22T14:58:42.0480201+05:30","level":"INFO","msg":"sender: started","stream_id":"4ak4idiw"}
+{"time":"2025-06-22T14:58:42.0485316+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"4ak4idiw"}
+{"time":"2025-06-22T14:58:42.484369+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-22T15:19:46.2523635+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-22T15:19:46.2523635+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-22T15:19:47.2627282+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-22T15:19:47.3045124+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.0410904}],"total_operations":1}}
+{"time":"2025-06-22T15:19:47.612837+05:30","level":"INFO","msg":"stream: closing","id":"4ak4idiw"}
+{"time":"2025-06-22T15:19:47.6144098+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"4ak4idiw"}
+{"time":"2025-06-22T15:19:47.6149169+05:30","level":"INFO","msg":"sender: closed","stream_id":"4ak4idiw"}
+{"time":"2025-06-22T15:19:47.6149169+05:30","level":"INFO","msg":"handler: closed","stream_id":"4ak4idiw"}
+{"time":"2025-06-22T15:19:47.6153869+05:30","level":"INFO","msg":"stream: closed","id":"4ak4idiw"}

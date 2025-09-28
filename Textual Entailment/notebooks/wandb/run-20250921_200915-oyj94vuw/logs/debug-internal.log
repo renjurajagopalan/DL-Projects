@@ -1,0 +1,19 @@
+{"time":"2025-09-21T20:09:17.6260168+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\notebooks\\wandb\\run-20250921_200915-oyj94vuw\\logs\\debug-core.log"}
+{"time":"2025-09-21T20:09:19.5755519+05:30","level":"INFO","msg":"stream: created new stream","id":"oyj94vuw"}
+{"time":"2025-09-21T20:09:19.5761329+05:30","level":"INFO","msg":"stream: started","id":"oyj94vuw"}
+{"time":"2025-09-21T20:09:19.5761329+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"oyj94vuw"}
+{"time":"2025-09-21T20:09:19.5761329+05:30","level":"INFO","msg":"sender: started","stream_id":"oyj94vuw"}
+{"time":"2025-09-21T20:09:19.5761329+05:30","level":"INFO","msg":"handler: started","stream_id":"oyj94vuw"}
+{"time":"2025-09-21T20:09:20.3086654+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-21T20:12:50.2397874+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T20:12:50.3033821+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T20:12:53.3785719+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T20:12:53.7463135+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-21T20:12:53.7463135+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-21T20:12:54.4039879+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.337595},{"desc":"uploading wandb-summary.json","runtime_seconds":0.337595,"progress":"26B/26B"}],"total_operations":2}}
+{"time":"2025-09-21T20:12:54.9273866+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-21T20:12:55.3737043+05:30","level":"INFO","msg":"stream: closing","id":"oyj94vuw"}
+{"time":"2025-09-21T20:12:55.4106685+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"oyj94vuw"}
+{"time":"2025-09-21T20:12:55.4127115+05:30","level":"INFO","msg":"sender: closed","stream_id":"oyj94vuw"}
+{"time":"2025-09-21T20:12:55.4154407+05:30","level":"INFO","msg":"handler: closed","stream_id":"oyj94vuw"}
+{"time":"2025-09-21T20:12:55.4154407+05:30","level":"INFO","msg":"stream: closed","id":"oyj94vuw"}

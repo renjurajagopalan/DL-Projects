@@ -1,0 +1,16 @@
+{"time":"2025-09-21T21:43:32.5383241+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\notebooks\\wandb\\run-20250921_214330-ikx95jp4\\logs\\debug-core.log"}
+{"time":"2025-09-21T21:43:32.9346748+05:30","level":"INFO","msg":"stream: created new stream","id":"ikx95jp4"}
+{"time":"2025-09-21T21:43:32.9346748+05:30","level":"INFO","msg":"stream: started","id":"ikx95jp4"}
+{"time":"2025-09-21T21:43:32.9346748+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ikx95jp4"}
+{"time":"2025-09-21T21:43:32.9346748+05:30","level":"INFO","msg":"sender: started","stream_id":"ikx95jp4"}
+{"time":"2025-09-21T21:43:32.9346748+05:30","level":"INFO","msg":"handler: started","stream_id":"ikx95jp4"}
+{"time":"2025-09-21T21:43:33.2978982+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-21T21:45:26.6757878+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-21T21:45:26.6772855+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-21T21:45:27.6982036+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.3793142,"progress":"997B/997B"}],"total_operations":1}}
+{"time":"2025-09-21T21:45:27.813511+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-21T21:45:28.3666623+05:30","level":"INFO","msg":"stream: closing","id":"ikx95jp4"}
+{"time":"2025-09-21T21:45:28.3710245+05:30","level":"INFO","msg":"handler: closed","stream_id":"ikx95jp4"}
+{"time":"2025-09-21T21:45:28.3710245+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ikx95jp4"}
+{"time":"2025-09-21T21:45:28.3798349+05:30","level":"INFO","msg":"sender: closed","stream_id":"ikx95jp4"}
+{"time":"2025-09-21T21:45:28.3798349+05:30","level":"INFO","msg":"stream: closed","id":"ikx95jp4"}

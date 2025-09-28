@@ -1,0 +1,16 @@
+{"time":"2025-09-21T20:12:55.4169208+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\notebooks\\wandb\\run-20250921_201253-nubl2nus\\logs\\debug-core.log"}
+{"time":"2025-09-21T20:12:55.9507722+05:30","level":"INFO","msg":"stream: created new stream","id":"nubl2nus"}
+{"time":"2025-09-21T20:12:55.9507722+05:30","level":"INFO","msg":"stream: started","id":"nubl2nus"}
+{"time":"2025-09-21T20:12:55.9513848+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nubl2nus"}
+{"time":"2025-09-21T20:12:55.9513848+05:30","level":"INFO","msg":"sender: started","stream_id":"nubl2nus"}
+{"time":"2025-09-21T20:12:55.9513848+05:30","level":"INFO","msg":"handler: started","stream_id":"nubl2nus"}
+{"time":"2025-09-21T20:12:56.4628744+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-21T20:14:40.6228254+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-21T20:14:40.6228254+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-21T20:14:41.5676964+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-21T20:14:41.6378969+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.0702005}],"total_operations":1}}
+{"time":"2025-09-21T20:14:42.0729428+05:30","level":"INFO","msg":"stream: closing","id":"nubl2nus"}
+{"time":"2025-09-21T20:14:42.0729428+05:30","level":"INFO","msg":"handler: closed","stream_id":"nubl2nus"}
+{"time":"2025-09-21T20:14:42.0729428+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nubl2nus"}
+{"time":"2025-09-21T20:14:42.0732983+05:30","level":"INFO","msg":"sender: closed","stream_id":"nubl2nus"}
+{"time":"2025-09-21T20:14:42.0738069+05:30","level":"INFO","msg":"stream: closed","id":"nubl2nus"}

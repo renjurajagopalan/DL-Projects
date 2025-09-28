@@ -1,0 +1,11 @@
+{"time":"2025-09-20T18:54:49.3230051+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\functions\\wandb\\run-20250920_185449-cpuv3ppl\\logs\\debug-core.log"}
+{"time":"2025-09-20T18:54:50.0067959+05:30","level":"INFO","msg":"stream: created new stream","id":"cpuv3ppl"}
+{"time":"2025-09-20T18:54:50.0067959+05:30","level":"INFO","msg":"stream: started","id":"cpuv3ppl"}
+{"time":"2025-09-20T18:54:50.0067959+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cpuv3ppl"}
+{"time":"2025-09-20T18:54:50.0067959+05:30","level":"INFO","msg":"handler: started","stream_id":"cpuv3ppl"}
+{"time":"2025-09-20T18:54:50.0073414+05:30","level":"INFO","msg":"sender: started","stream_id":"cpuv3ppl"}
+{"time":"2025-09-20T18:54:50.4501002+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-20T18:54:56.6024317+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-20T18:54:56.6030888+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-20T18:55:00.7112226+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-20T18:55:41.0740056+05:30","level":"INFO","msg":"Resuming system monitor"}

@@ -1,0 +1,19 @@
+{"time":"2025-09-14T16:12:14.6438331+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\functions\\wandb\\run-20250914_161211-9jjb7o7c\\logs\\debug-core.log"}
+{"time":"2025-09-14T16:12:15.0749447+05:30","level":"INFO","msg":"stream: created new stream","id":"9jjb7o7c"}
+{"time":"2025-09-14T16:12:15.0749447+05:30","level":"INFO","msg":"stream: started","id":"9jjb7o7c"}
+{"time":"2025-09-14T16:12:15.0749447+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"9jjb7o7c"}
+{"time":"2025-09-14T16:12:15.0756363+05:30","level":"INFO","msg":"handler: started","stream_id":"9jjb7o7c"}
+{"time":"2025-09-14T16:12:15.0756363+05:30","level":"INFO","msg":"sender: started","stream_id":"9jjb7o7c"}
+{"time":"2025-09-14T16:12:15.4778973+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-14T16:55:42.9965041+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/renju-rajagopalan-talentspr/Textual%20Entailment/9jjb7o7c/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-09-14T23:26:40.4940334+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/renju-rajagopalan-talentspr/Textual%20Entailment/9jjb7o7c/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-09-14T23:26:40.4965515+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-09-14T23:26:42.7530133+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/renju-rajagopalan-talentspr/Textual%20Entailment/9jjb7o7c/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-09-14T23:26:42.9708215+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-09-15T05:26:36.8317558+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/renju-rajagopalan-talentspr/Textual%20Entailment/9jjb7o7c/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-09-15T05:26:37.4840507+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-09-15T05:26:37.4216389+05:30","level":"WARN","msg":"sender: taking a long time","seconds":21596.5734666,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"ze3dki3jch00\"  connection_id:\"127.0.0.1:51136\")"}
+{"time":"2025-09-15T14:05:15.5007534+05:30","level":"WARN","msg":"sender: taking a long time","seconds":52715.4455313,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"ze3dki3jch00\"  connection_id:\"127.0.0.1:51136\")"}
+{"time":"2025-09-15T14:05:16.5420356+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-09-15T14:05:16.5420356+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/renju-rajagopalan-talentspr/Textual%20Entailment/9jjb7o7c/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-09-15T14:05:36.1673033+05:30","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":52736.1120812,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"ze3dki3jch00\"  connection_id:\"127.0.0.1:51136\")"}

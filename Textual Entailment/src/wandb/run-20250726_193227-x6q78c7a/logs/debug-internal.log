@@ -1,0 +1,16 @@
+{"time":"2025-07-26T19:32:29.0143297+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\functions\\wandb\\run-20250726_193227-x6q78c7a\\logs\\debug-core.log"}
+{"time":"2025-07-26T19:32:29.43524+05:30","level":"INFO","msg":"stream: created new stream","id":"x6q78c7a"}
+{"time":"2025-07-26T19:32:29.43524+05:30","level":"INFO","msg":"stream: started","id":"x6q78c7a"}
+{"time":"2025-07-26T19:32:29.4363909+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"x6q78c7a"}
+{"time":"2025-07-26T19:32:29.4368965+05:30","level":"INFO","msg":"sender: started","stream_id":"x6q78c7a"}
+{"time":"2025-07-26T19:32:29.4368965+05:30","level":"INFO","msg":"handler: started","stream_id":"x6q78c7a"}
+{"time":"2025-07-26T19:32:29.875557+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-26T19:33:37.7773097+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-26T19:33:37.7773097+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-26T19:33:38.7814408+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.2303874,"progress":"618B/618B"}],"total_operations":1}}
+{"time":"2025-07-26T19:33:38.9611096+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-26T19:33:39.3720039+05:30","level":"INFO","msg":"stream: closing","id":"x6q78c7a"}
+{"time":"2025-07-26T19:33:39.3720039+05:30","level":"INFO","msg":"handler: closed","stream_id":"x6q78c7a"}
+{"time":"2025-07-26T19:33:39.3720039+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"x6q78c7a"}
+{"time":"2025-07-26T19:33:39.3720039+05:30","level":"INFO","msg":"sender: closed","stream_id":"x6q78c7a"}
+{"time":"2025-07-26T19:33:39.3720039+05:30","level":"INFO","msg":"stream: closed","id":"x6q78c7a"}

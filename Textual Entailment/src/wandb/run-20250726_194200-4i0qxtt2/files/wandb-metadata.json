@@ -1,0 +1,31 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.1",
+  "startedAt":  "2025-07-26T14:12:02.530436Z",
+  "program":  "c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\functions\\data_preprocessing.ipynb",
+  "codePath":  "Textual Entailment\\functions\\data_preprocessing.ipynb",
+  "git":  {
+    "remote":  "https://github.com/renjurajagopalan/DL-Projects.git",
+    "commit":  "a597f314250329821b20f619136b79212e0f496e"
+  },
+  "email":  "renju.rajagopalan@gmail.com",
+  "root":  "c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\functions",
+  "host":  "Amulya",
+  "executable":  "c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\.venv13\\Scripts\\python.exe",
+  "codePathLocal":  "data_preprocessing.ipynb",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "disk":  {
+    "/":  {
+      "total":  "201032986624",
+      "used":  "151708524544"
+    }
+  },
+  "memory":  {
+    "total":  "8362713088"
+  },
+  "cpu":  {
+    "count":  2,
+    "countLogical":  4
+  }
+}

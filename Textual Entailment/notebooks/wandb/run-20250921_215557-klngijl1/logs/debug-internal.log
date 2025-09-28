@@ -1,0 +1,17 @@
+{"time":"2025-09-21T21:55:58.9982049+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\notebooks\\wandb\\run-20250921_215557-klngijl1\\logs\\debug-core.log"}
+{"time":"2025-09-21T21:55:59.4364217+05:30","level":"INFO","msg":"stream: created new stream","id":"klngijl1"}
+{"time":"2025-09-21T21:55:59.4364217+05:30","level":"INFO","msg":"stream: started","id":"klngijl1"}
+{"time":"2025-09-21T21:55:59.4364217+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"klngijl1"}
+{"time":"2025-09-21T21:55:59.4369068+05:30","level":"INFO","msg":"sender: started","stream_id":"klngijl1"}
+{"time":"2025-09-21T21:55:59.4369068+05:30","level":"INFO","msg":"handler: started","stream_id":"klngijl1"}
+{"time":"2025-09-21T21:55:59.8347534+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-21T21:57:55.4175271+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:57:55.5028468+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-21T21:57:55.5028468+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-21T21:57:56.5250293+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.2520312,"progress":"997B/997B"}],"total_operations":1}}
+{"time":"2025-09-21T21:57:56.7838576+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-21T21:57:57.4579379+05:30","level":"INFO","msg":"stream: closing","id":"klngijl1"}
+{"time":"2025-09-21T21:57:57.4579379+05:30","level":"INFO","msg":"handler: closed","stream_id":"klngijl1"}
+{"time":"2025-09-21T21:57:57.4579379+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"klngijl1"}
+{"time":"2025-09-21T21:57:57.4579379+05:30","level":"INFO","msg":"sender: closed","stream_id":"klngijl1"}
+{"time":"2025-09-21T21:57:57.4579379+05:30","level":"INFO","msg":"stream: closed","id":"klngijl1"}

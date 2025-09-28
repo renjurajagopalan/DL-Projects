@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+import-ipynb
+scikit-learn
+imblearn
+nltk
+tensorflow
+keras-tuner
+wandb
+gradio
+sentence-transformers
+tf-keras

@@ -1,0 +1,14 @@
+{"time":"2025-06-15T18:38:40.5191755+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\functions\\wandb\\run-20250615_183838-gtuen33d\\logs\\debug-core.log"}
+{"time":"2025-06-15T18:38:41.3284397+05:30","level":"INFO","msg":"stream: created new stream","id":"gtuen33d"}
+{"time":"2025-06-15T18:38:41.3289896+05:30","level":"INFO","msg":"stream: started","id":"gtuen33d"}
+{"time":"2025-06-15T18:38:41.3289896+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gtuen33d"}
+{"time":"2025-06-15T18:38:41.3289896+05:30","level":"INFO","msg":"handler: started","stream_id":"gtuen33d"}
+{"time":"2025-06-15T18:38:41.3289896+05:30","level":"INFO","msg":"sender: started","stream_id":"gtuen33d"}
+{"time":"2025-06-15T18:38:41.7484623+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-15T20:16:25.72127+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-15T20:16:25.72127+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/renju-rajagopalan-talentspr/Textual%20Entailment/gtuen33d/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-15T20:16:38.8478454+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-15T20:16:38.8478454+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/renju-rajagopalan-talentspr/Textual%20Entailment/gtuen33d/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-15T20:16:42.8889248+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-15T20:16:42.9965033+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/renju-rajagopalan-talentspr/Textual%20Entailment/gtuen33d/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-06-15T21:05:22.4477689+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/renju-rajagopalan-talentspr/Textual%20Entailment/gtuen33d/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}

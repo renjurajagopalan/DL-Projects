@@ -1,0 +1,17 @@
+{"time":"2025-09-21T20:14:42.1158126+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\notebooks\\wandb\\run-20250921_201440-fy2mevsm\\logs\\debug-core.log"}
+{"time":"2025-09-21T20:14:42.5518753+05:30","level":"INFO","msg":"stream: created new stream","id":"fy2mevsm"}
+{"time":"2025-09-21T20:14:42.5525076+05:30","level":"INFO","msg":"stream: started","id":"fy2mevsm"}
+{"time":"2025-09-21T20:14:42.5525076+05:30","level":"INFO","msg":"handler: started","stream_id":"fy2mevsm"}
+{"time":"2025-09-21T20:14:42.5525076+05:30","level":"INFO","msg":"sender: started","stream_id":"fy2mevsm"}
+{"time":"2025-09-21T20:14:42.5525076+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fy2mevsm"}
+{"time":"2025-09-21T20:14:42.9817802+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-21T20:14:56.2681362+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T20:14:56.339345+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-21T20:14:56.3403869+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-21T20:14:57.3553796+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.681802,"progress":"25B/25B"},{"desc":"uploading config.yaml","runtime_seconds":0.3663696,"progress":"997B/997B"}],"total_operations":2}}
+{"time":"2025-09-21T20:14:57.4894664+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-21T20:14:57.9215733+05:30","level":"INFO","msg":"stream: closing","id":"fy2mevsm"}
+{"time":"2025-09-21T20:14:57.9215733+05:30","level":"INFO","msg":"handler: closed","stream_id":"fy2mevsm"}
+{"time":"2025-09-21T20:14:57.9215733+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fy2mevsm"}
+{"time":"2025-09-21T20:14:57.9221434+05:30","level":"INFO","msg":"sender: closed","stream_id":"fy2mevsm"}
+{"time":"2025-09-21T20:14:57.9221434+05:30","level":"INFO","msg":"stream: closed","id":"fy2mevsm"}

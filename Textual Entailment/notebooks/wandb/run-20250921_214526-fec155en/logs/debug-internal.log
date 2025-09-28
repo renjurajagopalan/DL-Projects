@@ -1,0 +1,37 @@
+{"time":"2025-09-21T21:45:28.3844948+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\renju\\Documents\\Renju\\AI ML\\Projects\\DL-Projects\\Textual Entailment\\notebooks\\wandb\\run-20250921_214526-fec155en\\logs\\debug-core.log"}
+{"time":"2025-09-21T21:45:28.8097723+05:30","level":"INFO","msg":"stream: created new stream","id":"fec155en"}
+{"time":"2025-09-21T21:45:28.8103896+05:30","level":"INFO","msg":"stream: started","id":"fec155en"}
+{"time":"2025-09-21T21:45:28.8107606+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fec155en"}
+{"time":"2025-09-21T21:45:28.8107606+05:30","level":"INFO","msg":"sender: started","stream_id":"fec155en"}
+{"time":"2025-09-21T21:45:28.8107606+05:30","level":"INFO","msg":"handler: started","stream_id":"fec155en"}
+{"time":"2025-09-21T21:45:29.2562832+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-21T21:46:40.327464+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:46:40.3481352+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T21:46:40.9337022+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:46:40.9372347+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T21:46:41.4312984+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:46:41.6316878+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T21:47:04.7444651+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:47:04.8430822+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T21:47:05.2684152+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:47:05.2695326+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T21:47:05.5984437+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:47:05.6029656+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T21:47:11.6826857+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:47:11.686332+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T21:47:15.6164886+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:47:15.6164886+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T21:47:24.8063143+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:47:24.9816678+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T21:47:46.0931915+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:47:46.1641363+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-09-21T21:47:49.5724795+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-09-21T21:47:49.5797018+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-21T21:47:49.5797018+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-21T21:47:50.5945431+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.3271722,"progress":"997B/997B"}],"total_operations":1}}
+{"time":"2025-09-21T21:47:50.7553726+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-21T21:47:51.2866496+05:30","level":"INFO","msg":"stream: closing","id":"fec155en"}
+{"time":"2025-09-21T21:47:51.2866496+05:30","level":"INFO","msg":"handler: closed","stream_id":"fec155en"}
+{"time":"2025-09-21T21:47:51.2866496+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fec155en"}
+{"time":"2025-09-21T21:47:51.3343175+05:30","level":"INFO","msg":"sender: closed","stream_id":"fec155en"}
+{"time":"2025-09-21T21:47:51.3358429+05:30","level":"INFO","msg":"stream: closed","id":"fec155en"}
