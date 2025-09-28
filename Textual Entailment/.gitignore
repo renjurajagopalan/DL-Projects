@@ -1,0 +1,5 @@
+.venv13/
+.gradio/
+hp_tuning_dir/
+models/
+data/word_embedding/
