@@ -1,4 +1,4 @@
-# %%
+
 from keras_tuner import HyperModel
 import tensorflow as tf
 from tensorflow import keras
@@ -7,7 +7,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam, SGD
 
-# %%
+# Create LSTM model
 class LSTMHyperModel(HyperModel):
     def __init__(self,embedding_matrix, MAX_NUM_WORDS, EMBEDDING_DIM, MAX_SEQUENCE_LENGTH):
         self.embedding_matrix = embedding_matrix
@@ -66,7 +66,7 @@ class LSTMHyperModel(HyperModel):
 
         return model
 
-# %%
+# Create GRU Model
 class GRUHyperModel(HyperModel):
     def __init__(self,embedding_matrix, MAX_NUM_WORDS, EMBEDDING_DIM, MAX_SEQUENCE_LENGTH):
         self.embedding_matrix = embedding_matrix
@@ -125,7 +125,7 @@ class GRUHyperModel(HyperModel):
 
         return model
 
-# %%
+# Create CNN
 class CNNHyperModel(HyperModel):
     def __init__(self,embedding_matrix, MAX_NUM_WORDS, EMBEDDING_DIM, MAX_SEQUENCE_LENGTH):
         self.embedding_matrix = embedding_matrix
@@ -186,7 +186,7 @@ class CNNHyperModel(HyperModel):
 
         return model
 
-# %%
+# Create SBERT embedding based model
 class SBERTHyperModel(HyperModel):
     def __init__(self,EMBEDDING_DIM):
         self.EMBEDDING_DIM = EMBEDDING_DIM

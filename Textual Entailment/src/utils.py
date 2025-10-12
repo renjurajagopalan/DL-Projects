@@ -1,4 +1,3 @@
-# %%
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from imblearn.over_sampling import SMOTE
@@ -18,10 +17,9 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 from pathlib import Path
 
-# %% [markdown]
-# ### Pre-process the input text by removing the characters
+# Pre-process the input text by removing the characters
 
-# %%
+
 def clean_text(text):
   # pre-process the input text
 
@@ -44,10 +42,9 @@ def clean_text(text):
 
     return text
 
-# %% [markdown]
-# ### Tokenize and apply padding
+# Tokenize and apply padding
 
-# %%
+
 def tokenize(df, MAX_SEQUENCE_LENGTH, MAX_NUM_WORDS):
     tokenizer = Tokenizer(num_words=MAX_NUM_WORDS)
     sentences = list(df['sentence_A']) + list(df['sentence_B'])
@@ -68,19 +65,14 @@ def tokenize(df, MAX_SEQUENCE_LENGTH, MAX_NUM_WORDS):
     return word_index, padded_A, padded_B
 
 
-# %% [markdown]
-# ### Apply SMOTE 
+# Apply SMOTE 
 
-# %%
 def apply_SMOTE(X_combined, y):
     smote = SMOTE(random_state = 42)
     X_combined_resampled, y_resampled = smote.fit_resample(X_combined, y)
     return X_combined_resampled, y_resampled
 
-# %% [markdown]
-# ### Generate Word Embeddings 
-
-# %%
+# Generate Word Embeddings 
 def gen_word_embedding(EMBEDDING_DIM, MAX_NUM_WORDS,word_index):
     f = open('../word_embedding/glove.6B.300d.txt', encoding="utf8")
     embeddings_index = {}
@@ -99,10 +91,7 @@ def gen_word_embedding(EMBEDDING_DIM, MAX_NUM_WORDS,word_index):
                 embedding_matrix[i] = embedding_vector
     return embedding_matrix
 
-# %% [markdown]
-# ### Tokenize Function for Test Inputs
-
-# %%
+# Tokenize Function for Test Inputs
 def tokenize_test(sentence1, sentence2):
 
     print(sentence1, " ", sentence2)

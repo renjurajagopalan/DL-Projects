@@ -10,6 +10,8 @@ import numpy as np
 
 from pathlib import Path
 
+# Listing the models from the directory in a dropdown
+
 def get_files_in_folder():
     script_path = Path(__file__).resolve()
     folder_path = script_path.parent.parent / 'models'
@@ -21,6 +23,7 @@ def get_files_in_folder():
         return []
         print("I didnt find anything")
 
+# processing the inputs and presenting the output
 
 def process_inputs(sentence1, sentence2, model_name):
     print(type(sentence1))
@@ -30,8 +33,7 @@ def process_inputs(sentence1, sentence2, model_name):
     model_path = script_path.parent.parent / 'saved_models' / model_name
    
     model = keras.models.load_model(model_path)
-    # need to load the model here
-
+  
     label_path = script_path.parent / 'label_encoder_classes.pkl'
     with open(label_path, 'rb') as f:
         loaded_classes = pickle.load(f)

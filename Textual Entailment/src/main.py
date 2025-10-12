@@ -1,4 +1,3 @@
-# %%
 import pandas as pd
 import numpy as np
 import import_ipynb
@@ -24,21 +23,16 @@ from sentence_transformers import SentenceTransformer
 
 from config import modelname, wandb_API_KEY
 
-# %%
+# Read data source
 df = pd.read_csv("../data/sententence_data.csv")
 
-# %%
+# Create a single Target column
 df['Category'] =  df['entailment_AB'] + '_' + df['entailment_BA']
 X = df[['sentence_A', 'sentence_B']]
 y = df['Category']
 
-# %%
-# modelname = 'SBERT'
+# Encode the Target Column
 
-# %% [markdown]
-# ### Encode the Target Column
-
-# %%
 label_encoder = LabelEncoder()
 y = label_encoder.fit_transform(y)
 y = to_categorical(y)
@@ -46,7 +40,7 @@ y = to_categorical(y)
 with open('label_encoder_classes.pkl', 'wb') as f:
     pickle.dump(label_encoder.classes_, f)
 
-# %%
+# Preprocess the input , generate embedding matrix
 def pre_process(modelname):
     if modelname != 'SBERT':
         MAX_NUM_WORDS = 100000
@@ -103,13 +97,13 @@ def pre_process(modelname):
 
     return selected_model, X_trainA, X_testA, X_trainB, X_testB, y_train, y_test
 
-# %%
+
 selected_model, X_trainA, X_testA, X_trainB, X_testB, y_train, y_test = pre_process(modelname)
 
-# %%
+# Wandb Login
 wandb.login(key=wandb_API_KEY)
 
-# %%
+# Keras hypertuner
 class MyTuner(kt.Tuner):
     def run_trial(self, trial, X_input, y_train, batch_size, epochs, objective):
         hp = trial.hyperparameters
@@ -118,7 +112,7 @@ class MyTuner(kt.Tuner):
         ## create the model with the current trial hyperparameters
         model = self.hypermodel.build(hp)
 
-        ## Initiates new run for each trial on the dashboard of Weights & Biases
+        # Initiates new run for each trial on the dashboard of Weights & Biases
         run = wandb.init(project="entailment_classifier_LSTM", config=hp.values)
         print("I am running")
 
@@ -136,10 +130,8 @@ class MyTuner(kt.Tuner):
 
         run.finish()
 
-# %% [markdown]
-# ### Hyper parameter Tuning
+# Hyper parameter Tuning
 
-# %%
 objective = 'loss' 
 
 '''tuner = BayesianOptimization(
@@ -159,14 +151,14 @@ tuner = MyTuner(
 
 tuner.search_space_summary()
 
-# %%
+# Early stopping
 early_stopping = tf.keras.callbacks.EarlyStopping(
     monitor='val_loss',
     patience=10,
     restore_best_weights=True
 )
 
-# %%
+
 tuner.search(
     X_input= [X_trainA, X_trainB],
     y_train=y_train,
@@ -177,17 +169,13 @@ tuner.search(
     objective=objective
 )
 
-# %% [markdown]
-# ### Get the best model hyper parameters and train the model
-
-# %%
+# Get the best model hyper parameters and train the model
 best_hps = tuner.get_best_hyperparameters(num_trials=1)[0]
 best_model = tuner.hypermodel.build(best_hps)
 
-# %%
 run = wandb.init(project = 'Textual Entailment')
 
-# %%
+# checkpoint
 checkpoint_filepath = './saved_models/' + modelname + '.keras'
 model_checkpoint = tf.keras.callbacks.ModelCheckpoint(
     filepath=checkpoint_filepath,
@@ -197,7 +185,7 @@ model_checkpoint = tf.keras.callbacks.ModelCheckpoint(
 )
 
 
-# %%
+# Train the selected model
 history = best_model.fit(
     [X_trainA, X_trainB],
     y_train,

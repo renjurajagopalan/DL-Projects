@@ -3,3 +3,6 @@
 hp_tuning_dir/
 models/
 data/word_embedding/
+notebooks/wandb
+src/hp_tuning_dir
+src/wandb
